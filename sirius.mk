@@ -53,3 +53,7 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/sirius/sirius-vendor.mk)
+
+# TWRP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
