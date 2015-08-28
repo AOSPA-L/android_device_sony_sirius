@@ -66,6 +66,3 @@ TW_MAX_BRIGHTNESS := 4095
 TW_NO_USB_STORAGE := true
 TW_NO_SCREEN_BLANK := true
 
-# Quickboot
-PRODUCT_COPY_FILES += \
-    device/sony/sirius/prebuilt/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk
