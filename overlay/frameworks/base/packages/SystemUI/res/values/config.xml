@@ -16,9 +16,13 @@
 ** limitations under the License.
 */
 -->
-
 <resources>
     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
     <bool name="doze_display_state_supported">false</bool>
     <bool name="doze_pulse_on_pick_up">true</bool>
+	
+	<!-- Set to true to enable the classic notification ticker that scrolls
+         Notification.tickerText across the status bar for what seems like an
+         eternity. -->
+    <bool name="enable_ticker">true</bool>
 </resources>
